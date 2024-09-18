@@ -1,0 +1,139 @@
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #01ecd5;
+    border: 3px solid black;
+    color: #f5f5f5;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 43rem;
+
+}
+
+.upload-label:hover {
+    background: #4586ff;
+    border-radius: 50%;
+    transition: all 1s;
+    font-weight: bolder;
+    color: #f5f5f5;
+}
+
+
+
+
+
+
+.loader {
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text1 {
+    background-color: #F5F0BB;
+    color: #12998b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    transition: all 2s;
+}
+
+.text1:hover {
+    color: #01ffe6;
+    transition: all 0.7s;
+}
+
+.nav {
+    background-color: #4586ff;
+}
+
+
+.head {
+    padding-left: 25rem;
+    color: #536a76;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 1%;
+    transition: all 1.5s;
+}
+
+.head:hover {
+    text-decoration:underline;
+    transition: all 1.5s;
+}
+
+
+.notes {
+    font-size: 1.5rem;
+
+}
+
+.image-section{
+
+    margin-left: 40rem;
+}
+
+#btn-predict{
+
+    margin-left: 5rem;
+}
+
+.img-preview{
+    display: block;
+}
+
+.loader{
+    margin-left: 47rem;
+}
+
+#notes{
+    text-decoration: underline;
+
+
+}
+
+#result {
+    margin-left: 40rem;
+}
